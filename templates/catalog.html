@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Каталог</title>
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+</head>
+<body class="d-flex">
+
+  <!-- Левое меню -->
+  <aside class="bg-dark text-white p-3" style="width: 250px; height: 100vh;">
+    <h4 class="mb-4">Меню</h4>
+    <ul class="nav flex-column">
+      <li class="nav-item"><a href="/" class="nav-link text-white">Главная</a></li>
+      <li class="nav-item"><a href="/catalog" class="nav-link text-white active">Каталог</a></li>
+      <li class="nav-item"><a href="/category" class="nav-link text-white">Категория</a></li>
+      <li class="nav-item"><a href="/contacts" class="nav-link text-white">Контакты</a></li>
+    </ul>
+  </aside>
+
+  <!-- Контент -->
+  <main class="container my-5">
+    <h1 class="text-center">Каталог</h1>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+  <!-- Первая карточка -->
+  <div class="col">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Пример карточки</h5>
+        <p class="card-text">Это расширенное описание товара или услуги.</p>
+        <div class="d-flex justify-content-between">
+          <a href="#" class="btn btn-primary">View</a>
+          <a href="#" class="btn btn-secondary">Edit</a>
+        </div>
+      </div>
+      <div class="card-footer text-muted">9 mins</div>
+    </div>
+  </div>
+
+  <!-- Вторая карточка -->
+  <div class="col">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ещё один товар</h5>
+        <p class="card-text">Описание второго товара или услуги.</p>
+        <div class="d-flex justify-content-between">
+          <a href="#" class="btn btn-primary">Подробнее</a>
+          <a href="#" class="btn btn-secondary">Редактировать</a>
+        </div>
+      </div>
+      <div class="card-footer text-muted">5 mins</div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/static/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
